@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasha's Fitness</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        /* reset CSS*/
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('https://cdn.pixabay.com/photo/2016/11/22/22/25/abs-1850926_1280.jpg');
+            /*   font-family: 'Lato', sans-serif;  */
+            font-family: 'Babylonica', cursive;
+
+
+        }
+
+        .left {
+            position: absolute;
+            left: 34px;
+            top: 10px;
+            display: inline-block;
+
+            /*border: 2px solid yellow;*/
+
+        }
+
+        .left img {
+            width: 50px;
+            padding: 0px 26px;
+            filter: invert('100%');
+            /for picture colouring black or white/
+
+        }
+
+        .left div {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .mid {
+            display: block;
+            /*border: 2px solid white;*/
+            width: 33%;
+            margin: 44px auto;
+            font-family: 'Lato', sans-serif;
+            font-weight: bold;
+        }
+
+        .right {
+            position: absolute;
+            right: 26px;
+            top: 20px;
+            display: inline-block;
+            /*border: 2px solid red;*/
+
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 15px;
+            font-weight: bold;
+            font-family: 'Babylonica', cursive;
+
+        }
+
+        .navbar li a:hover {
+            /,.navbar li a.active/
+            text-decoration: underline;
+
+            color: gray;
+        }
+
+        /*<!-- .navbar li a:hover .navbar li a,:active{
+            text-decoration:  underline;
+            for any anker tag is open then it will underline.......
+        } -->*/
+
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 19px;
+            font-weight: bold;
+
+        }
+
+        .btn {
+            margin: 16px 9px;
+            padding: 7px 15px;
+            background-color: black;
+            color: white;
+            font-family: 'Babylonica', cursive;
+            font-weight: bold;
+            font-weight: bold;
+            border-radius: 8px;
+
+        }
+
+        .btn:hover {
+            background-color: rgb(197, 189, 189);
+            color: rgb(0, 0, 0);
+        }
+
+        .container {
+            /*border: 2px solid white;
+            border-radius: 22px;*/
+
+            width: 38%;
+            margin: 82px 275px;
+            padding: 36px 120px;
+
+        }
+
+        .form_group input {
+            font-size: 17px;
+            text-align: center;
+            padding: 6px 21px;
+            margin: 8px auto;
+            width: 264px;
+            display: block;
+            border-radius: 7px;
+
+        }
+
+        .container h2 {
+            text-align: center;
+            font-family: 'Babylonica', cursive;
+        }
+
+        .container button {
+            display: block;
+            margin: 10px auto;
+            width: 54%;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="https://thumbs.dreamstime.com/b/single-dumbbell-black-11195391.jpg" alt="Loading">
+            <div>
+                Pasha Fitness
+            </div>
+        </div>
+        <!-- mid for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Detail</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+        </div>
+        <!-- right for buttons -->
+        <div class="right">
+            <button class="btn">Call us</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>For join us fill this Form:</h2>
+        <form action="noaction.php">
+            <div class="form_group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form_group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form_group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form_group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">Submit</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
