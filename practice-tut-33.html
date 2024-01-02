@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+        color: white;
+    }
+
+    .header::before {
+        content: "";
+        background: url('https://source.unsplash.com/collection/190727/1600x900' ) no-repeat center center/cover;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: -2;
+        opacity: 0.3;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 3rem;
+        font-family: 'Bree Serif', serif;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        height: 350px;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid black;
+    }
+
+    p {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .navbar ul {
+        display: flex;
+    }
+
+    li {
+        list-style: none;
+        padding: 3px 10px;
+        font-weight: bold;
+        font-family: 'Bree Serif', serif;
+        font-size: 1rem;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul class="container">
+                <li class="items">First</li>
+                <li class="items">About</li>
+                <li class="items">Services</li>
+                <li class="items">Contact Us</li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <section>
+        <h2>Welcome to Coading world.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptas vitae vel perferendis
+            consequuntur! Odio dignissimos voluptates, ullam aliquid in harum perferendis!. Lorem ipsum dolor
+            sit amet, consectetur adipisicing elit. Et, harum ex eaque maiores reprehenderit eos numquam
+            cupiditate optio quae rerum.</p>
+    </section>
+</body>
+
+</html>
