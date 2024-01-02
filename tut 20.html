@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pading/ margin</title>
+    <style>
+        body {
+            background-color:rgba(162, 149, 149, 0.144);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .container {
+            /*padding-left: 23px;
+        padding-bottom: 20px;
+        padding-top: 0px;*/
+
+            background-color: rgba(25, 127, 42, 0.68);
+            border: 4px solid black;
+
+            /*same for margin
+        margin-left: 23px;
+        margin-bottom: 20px;
+        margin-top: 0px;*/
+
+            margin: 7px 233px;
+
+            /* if we padd in one line  padding:top right bottom */
+            /*padding: 16px 49px 18px 49px;*/
+
+            /* if we use same top or bottom or same right or left then we wright this .>> padding: y(top/bottom) x(right/left);*/
+
+            padding: 15px 95px;
+            width: 505px; 
+            border-radius: 10px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="container">
+        <h3>This is my heading.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum officiis recusandae eius repellat
+            <mark>salamander</mark>
+            perspiciatis animi ipsa. Maiores at temporibus saepe delectus ex autem.</p>
+        
+    </div>
+    <div class="container">
+        <h3>This is my heading.</h3>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum officiis recusandae eius repellat
+            perspiciatis animi <mark>salamander</mark> ipsa. Maiores at temporibus saepe delectus ex autem.</p>
+
+    </div>
+    <div class="container">
+        <h3>This is my heading.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum officiis <mark>salamander</mark>
+            recusandae eius repellat
+            perspiciatis animi ipsa. Maiores at temporibus saepe delectus ex autem.</p>
+        <caption></caption>
+    </div>
+    <span>heklljo zc</span> <span>jsdlihfsfk ma </span>
+    <mark>salamander</mark>
+</body>
+
+</html>
