@@ -1,0 +1,74 @@
+
+<!-- in this file we did to how to make a form :  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tutorial of Forms in html.</title>
+</head>
+
+<body>
+    <h2 style="border: 2px solid blue">This is the form in HTMl</h2>
+    
+    <form action="bjai_husnan_di.csv">
+        <div><label for="name"> Name: <input type="text" name="myName" id="name">
+            </label></div>
+
+        <br>
+        <div>
+            <label for="role"> Role: <input type="text" name="myRole" id="role"> </label>
+        </div>
+        <br>
+        <div>
+            <label for="email"> Email: <input type="email" name="myEmail" id="email"> </label>
+        </div>
+        <br>
+        <div>
+            <label for="gender"></label>
+            Gender: <input type="radio" name="myGender" id="gender">Male
+            
+
+            <input type="radio" name="myGender" id="gender">Female
+            <input type="radio" name="myGender" id="gender" >Other
+        </div>
+        <br>
+        <div>
+            <label for="birth">Date of birth: <input type="date" name="myBirth" id="birth"></label>
+        </div>
+        <br>
+        <div>
+            <label for="bounus">Bounus: <input type="number" name="myBounus" id="bounus"></label>
+        </div>
+        <br>
+        <div>
+            <label for="eligible">Are u Eligible?: <input type="checkbox" name="myEligibility" id="eligible"></label>
+        </div>
+        <br>
+        <div>
+            <label for="car">Car:</label>
+            <select name="myCar" id="car">
+                <option value="swift">Swift</option>
+                <option value="Civic" selected>Civic</option>
+                <option value="Mehran">Mehran</option>
+                <option value="BMW">BMW</option>
+            </select>
+        </div>
+        <div>
+            <label for="text">
+                <h4 style="border: 2px solid blue" >Write about yourself:</h4> 
+                <textarea name="myText" id="text" cols="40" rows="10"></textarea>
+            </label>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit now" style="border: 2px solid blue">
+            <input type="reset" value="Reset" style="border: 2px solid  red">
+        </div>
+
+    </form>
+</body>
+
+</html>
